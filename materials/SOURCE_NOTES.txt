@@ -1,0 +1,42 @@
+公開 SBOM 教學樣本
+
+這兩份 JSON 保留原始內容，可離線閱讀或用於課堂公開資料示範。
+資料取得日期：2026-11-23（Asia/Taipei）。
+它們是公開軟體範例與發布資料，並非臺北市政府系統的實際交付文件。
+
+一、laravel-7.12.0.cdx-1.6.json
+
+來源：CycloneDX / cyclonedx-php-composer
+原始路徑：demo/laravel-7.12.0/results/bom.1.6.json
+固定 commit：defcbfed77054ae9659eb6092422456bb24c1114
+GitHub：https://github.com/CycloneDX/cyclonedx-php-composer/blob/defcbfed77054ae9659eb6092422456bb24c1114/demo/laravel-7.12.0/results/bom.1.6.json
+Raw：https://raw.githubusercontent.com/CycloneDX/cyclonedx-php-composer/defcbfed77054ae9659eb6092422456bb24c1114/demo/laravel-7.12.0/results/bom.1.6.json
+Git blob SHA-1：2e6ed065c2202dc3adb61dc2df747e2c4005b0d8
+SHA-256：05c649795520a440dde1b335a388dcce3eaad3204d6ae156654b03d2eae98b4a
+檔案大小：153496 bytes
+
+授權與聲明：原始 repository 採 Apache License 2.0。
+同一 commit 的 LICENSE 與 NOTICE 全文隨本資料夾附上：
+- CycloneDX-php-composer-LICENSE.txt
+- CycloneDX-php-composer-NOTICE.txt
+NOTICE 原文指出：CycloneDX PHP Composer Plugin；Copyright (c) OWASP Foundation. All Rights Reserved.；This product includes software developed by the CycloneDX community (https://cyclonedx.org/).
+原始 JSON 未修改。檔名僅為教材識別而調整。
+清單中各元件的 licenses 欄位是該元件的授權資訊，不應與教材資料檔的再利用條件混為一談。
+
+二、python-3.14.0-amd64.exe.spdx.json
+
+來源：Python 官方發布站
+URL：https://www.python.org/ftp/python/3.14.0/python-3.14.0-amd64.exe.spdx.json
+對應發布產物：python-3.14.0-amd64.exe
+SHA-256：c4bad556b608227211d507eb72626319ff3d0d061f98dce556787ab7a4dbae20
+檔案大小：35157 bytes
+文件內的 dataLicense：CC0-1.0
+CC0 說明：https://creativecommons.org/publicdomain/zero/1.0/
+文件內的 creationInfo.created：2025-10-07T11:38:34Z
+文件內的 creators：Person: Python Release Managers；Tool: ReleaseTools-9721c249ff1de736fcf180c4a806ce75372ebf2a
+原始 JSON 未修改。
+
+閱讀提醒
+
+格式的版本、SBOM 文件的版本、產品的版本與元件的版本各有不同意義。
+範例中的元件資訊適合用於辨識欄位與相依關係；採購實際接受的標準版本、必要欄位及涵蓋範圍，應依該案確認的要求判讀。
